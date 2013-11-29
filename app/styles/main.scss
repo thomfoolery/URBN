@@ -5,8 +5,48 @@
 @import "_globals.scss";
 
 #main-content {
-  width: 500px;
+  width: 300px;
   margin: 0 auto;
+
+  &.small {
+    width: 300px;
+  }
+
+  &.medium {
+    width: 400px;
+  }
+
+  &.large {
+    width: 600px;
+  }
+
+  header {
+    ul {
+
+      @extend .clearfix;
+
+      list-style: none;
+      padding: 0;
+      margin: 0;
+
+      li {
+        float: left;
+        width: 33.333%;
+
+        button {
+          display: block;
+          box-sizing: border-box;
+          width: 100%;
+          height: 2em;
+          line-height: 2em;
+
+          padding: 0;
+          margin: 0;
+          text-align: center;
+        }
+      }
+    }
+  }
 
   #timer {
     height: 5px;

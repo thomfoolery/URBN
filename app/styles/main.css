@@ -416,12 +416,12 @@ img {
 .right {
   float: right !important; }
 
-.clearfix {
+.clearfix, #main-content header ul {
   *zoom: 1; }
-  .clearfix:before, .clearfix:after {
+  .clearfix:before, #main-content header ul:before, .clearfix:after, #main-content header ul:after {
     content: " ";
     display: table; }
-  .clearfix:after {
+  .clearfix:after, #main-content header ul:after {
     clear: both; }
 
 .text-left {
@@ -5728,21 +5728,22 @@ th.hide-for-touch {
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
-.clearfix:before,
-.clearfix:after {
+.clearfix:before, #main-content header ul:before,
+.clearfix:after,
+#main-content header ul:after {
   content: " ";
   /* 1 */
   display: table;
   /* 2 */ }
 
-.clearfix:after {
+.clearfix:after, #main-content header ul:after {
   clear: both; }
 
 /*
  * For IE 6/7 only
  * Include this rule to trigger hasLayout and contain floats.
  */
-.clearfix {
+.clearfix, #main-content header ul {
   *zoom: 1; }
 
 /* ==========================================================================
@@ -5804,8 +5805,30 @@ th.hide-for-touch {
   h3 {
     page-break-after: avoid; } }
 #main-content {
-  width: 500px;
+  width: 300px;
   margin: 0 auto; }
+  #main-content.small {
+    width: 300px; }
+  #main-content.medium {
+    width: 400px; }
+  #main-content.large {
+    width: 600px; }
+  #main-content header ul {
+    list-style: none;
+    padding: 0;
+    margin: 0; }
+    #main-content header ul li {
+      float: left;
+      width: 33.333%; }
+      #main-content header ul li button {
+        display: block;
+        box-sizing: border-box;
+        width: 100%;
+        height: 2em;
+        line-height: 2em;
+        padding: 0;
+        margin: 0;
+        text-align: center; }
   #main-content #timer {
     height: 5px;
     background-color: #71bfff; }
