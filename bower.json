@@ -1,0 +1,20 @@
+{
+  "name": "-backbone",
+  "version": "0.0.0",
+  "dependencies": {
+    "jquery": "~1.9.0",
+    "underscore": "~1.4.3",
+    "backbone": "~1.0.0",
+    "modernizr": "~2.6.2",
+    "compass-mixins": "~1.0.0",
+    "h5bp-helpers": "~0.1.0",
+    "marionette": "~1.3.0",
+    "foundation": "~5.0.2"
+  },
+  "devDependencies": {},
+  "resolutions": {
+    "underscore": "~1.5.1",
+    "backbone": "~1.1.0",
+    "jquery": "~1.9.0"
+  }
+}

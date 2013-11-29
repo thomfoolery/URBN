@@ -1,0 +1,72 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <title>URBN: Frontend UI project - Instagram feed</title>
+
+        <meta name="description" content="Frontend UI project for URBN to display the latest 15 instagram pictures tagged with 'freepeople'">
+        <meta name="viewport" content="width=device-width">
+
+        <!-- build:js styles/main.css -->
+        <link rel="stylesheet" href="styles/main.css">
+        <!-- endbuild -->
+
+        <!-- build:js scripts/vendor/modernizr.js -->
+        <script src="bower_components/modernizr/modernizr.js"></script>
+        <!-- endbuild -->
+    </head>
+    <body>
+        <!--[if lt IE 10]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <div id="main-content" role="main">
+            <div class="grams-container">
+                <ol id="grams"></ol>
+            </div>
+            <div id="timer">
+                <div class="timer-marker"></div>
+            </div>
+            <div class="thumbs-container">
+                <ol id="thumbs"></ol>
+            </div>
+        </div>
+
+        <template id="tpl-gram-item-view">
+            <a href="{{ obj.link }}">
+                <figure>
+                    <img src="{{ obj.images.standard_resolution.url }}"
+                         width="{{ obj.images.standard_resolution.width }}"
+                         height="{{ obj.images.standard_resolution.height }}"
+                         data-item-id="{{ obj.id }}" />
+                </figure>
+            </a>
+        </template>
+
+        <template id="tpl-thumb-item-view">
+            <figure>
+                <img src="{{ obj.images.standard_resolution.url }}"
+                     width="{{ obj.images.standard_resolution.width }}"
+                     height="{{ obj.images.standard_resolution.height }}"
+                     data-item-id="{{ obj.id }}" />
+            </figure>
+        </template>
+
+        <!-- build:js scripts/vendor.js -->
+        <script src="bower_components/jquery/jquery.min.js"></script>
+        <script src="bower_components/underscore/underscore-min.js"></script>
+        <script src="bower_components/backbone/backbone-min.js"></script>
+        <script src="bower_components/marionette/lib/backbone.marionette.min.js"></script>
+        <!-- endbuild -->
+
+        <!-- build:js({.tmp,app}) scripts/main.js -->
+        <script src="scripts/main.js"></script>
+        <!-- endbuild -->
+</body>
+</html>
