@@ -5826,14 +5826,14 @@ body {
       font-size: 1.4em;
       line-height: 1.1em; }
       #main-content.medium .gram-gallery .gram-gallery-stage #grams .gram-item-view figure figcaption p a {
-        font-size: .8em; }
+        font-size: .5em; }
   #main-content.large {
     width: 600px; }
     #main-content.large .gram-gallery .gram-gallery-stage #grams .gram-item-view figure figcaption p {
       font-size: 1.4em;
       line-height: 1.1em; }
       #main-content.large .gram-gallery .gram-gallery-stage #grams .gram-item-view figure figcaption p a {
-        font-size: .8em; }
+        font-size: .5em; }
   #main-content header ul {
     list-style: none;
     padding: 0;
@@ -5939,7 +5939,7 @@ body {
             #main-content .gram-gallery .gram-gallery-stage #grams .gram-item-view figure figcaption .likes {
               color: white;
               font-size: 1.2em;
-              margin: 10px 10px 50px;
+              margin: 10px 10px 20px;
               text-shadow: 0 0 5px black; }
               #main-content .gram-gallery .gram-gallery-stage #grams .gram-item-view figure figcaption .likes i {
                 color: #EB5190;
@@ -6005,15 +6005,17 @@ body {
       float: left;
       width: 20%; }
       #main-content .thumbs-stage #thumbs .thumb-item-view img.loaded {
+        filter: grayscale(100%);
         -webkit-filter: grayscale(100%);
-        -moz-filter: grayscale(100%);
-        -ms-filter: grayscale(100%);
-        filter: grayscale(100%); }
+        /* For Webkit browsers */
+        filter: gray;
+        /* For IE 6 - 9 */
+        filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='grayscale'><feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0'/></filter></svg>#grayscale");
+        /* Firefox 10+, Firefox on Android */ }
       #main-content .thumbs-stage #thumbs .thumb-item-view.highlighted img.loaded {
+        filter: grayscale(0%);
         -webkit-filter: grayscale(0%);
-        -moz-filter: grayscale(0%);
-        -ms-filter: grayscale(0%);
-        filter: grayscale(0%); }
+        filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='grayscale'><feColorMatrix type='matrix' values='1 0 0 0 0, 0 1 0 0 0, 0 0 1 0 0, 0 0 0 1 0'/></filter></svg>#grayscale"); }
 
 .abs-top,
 .abs-left,
