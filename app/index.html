@@ -29,41 +29,79 @@
         <div id="main-content" role="main">
 
             <header>
-                <ul>
-                    <li><button>Small</button></li>
-                    <li><button>Medium</button></li>
-                    <li><button>Large</button></li>
+                <ul class="row">
+                    <li class="small-4 column">
+                        <button>Small</button>
+                    </li>
+                    <li class="small-4 column">
+                        <button>Medium</button>
+                    </li>
+                    <li class="small-4 column">
+                        <button>Large</button>
+                    </li>
                 </ul>
             </header>
 
-            <div class="grams-container">
-                <ol id="grams"></ol>
+            <div class="gram-gallery">
+                <div class="gram-gallery-stage">
+
+                    <ol id="grams"></ol>
+
+                    <div class="controls abs-right abs-top abs-bottom">
+                        <button data-prev class="abs-top prev">
+                            <span class="visuallyhidden">Previous</span>
+                            <i class="foundicon-up-arrow"></i>
+                        </button>
+                        <button data-next class="abs-bottom next">
+                            <span class="visuallyhidden">Next</span>
+                            <i class="foundicon-down-arrow"></i>
+                        </button>
+                    </div>
+
+                </div>
+
+                <!-- <div id="timer">
+                    <div class="timer-marker"></div>
+                </div> -->
+
+                <div class="thumbs-stage">
+                    <ol id="thumbs"></ol>
+                </div>
             </div>
-            <div id="timer">
-                <div class="timer-marker"></div>
-            </div>
-            <div class="thumbs-container">
-                <ol id="thumbs"></ol>
-            </div>
+
         </div>
 
         <template id="tpl-gram-item-view">
-            <a href="{{ obj.link }}">
-                <figure>
-                    <img src="{{ obj.images.standard_resolution.url }}"
-                         width="{{ obj.images.standard_resolution.width }}"
-                         height="{{ obj.images.standard_resolution.height }}"
-                         data-item-id="{{ obj.id }}" />
-                </figure>
-            </a>
-        </template>
-
-        <template id="tpl-thumb-item-view">
             <figure>
                 <img src="{{ obj.images.standard_resolution.url }}"
                      width="{{ obj.images.standard_resolution.width }}"
                      height="{{ obj.images.standard_resolution.height }}"
                      data-item-id="{{ obj.id }}" />
+                <figcaption class="abs-left abs-right abs-bottom">
+                    <div class="likes">
+                        <i class="foundicon-heart"></i>
+                        {{ obj.likes.count }}
+                    </div>
+        {[ if ( obj.caption ) { ]}
+                    <p>
+                        {{ obj.caption.text.replace('/([\uE000-\uF8FF]|\uD83C[\uDF00-\uDFFF]|\uD83D[\uDC00-\uDDFF])/g', '') }}
+                    </p>
+        {[ } ]}
+                    <p>
+                        <a href="{{ obj.link }}" target="_blank">
+                            Source
+                        </a>
+                    </p>
+                </figcaption>
+            </figure>
+        </template>
+
+        <template id="tpl-thumb-item-view">
+            <figure>
+                <img src="{{ obj.images.thumbnail.url }}"
+                     width="{{ obj.images.thumbnail.width }}"
+                     height="{{ obj.images.thumbnail.height }}"
+                     data-item-id="{{ obj.id }}" onload="this.className='loaded';"/>
             </figure>
         </template>
 

@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url(../bower_components/foundation-icons/foundation_icons_general/stylesheets/general_foundicons.css);
 @import url("//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700");
 /* normalize.css v2.1.2 | MIT License | git.io/normalize */
 /* ==========================================================================
@@ -5804,38 +5805,59 @@ th.hide-for-touch {
   h2,
   h3 {
     page-break-after: avoid; } }
+html,
+body {
+  background-color: #f6f4f2;
+  font-size: 10px;
+  font-family: Arial,Verdana,Helvetica,Sans-serif; }
+
 #main-content {
   width: 300px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  -webkit-transition: width 250ms linear;
+  -moz-transition: width 250ms linear;
+  -ms-transition: width 250ms linear;
+  transition: width 250ms linear; }
   #main-content.small {
     width: 300px; }
   #main-content.medium {
     width: 400px; }
+    #main-content.medium .gram-gallery .gram-gallery-stage #grams .gram-item-view figure figcaption p {
+      font-size: 1.4em;
+      line-height: 1.1em; }
+      #main-content.medium .gram-gallery .gram-gallery-stage #grams .gram-item-view figure figcaption p a {
+        font-size: .8em; }
   #main-content.large {
     width: 600px; }
+    #main-content.large .gram-gallery .gram-gallery-stage #grams .gram-item-view figure figcaption p {
+      font-size: 1.4em;
+      line-height: 1.1em; }
+      #main-content.large .gram-gallery .gram-gallery-stage #grams .gram-item-view figure figcaption p a {
+        font-size: .8em; }
   #main-content header ul {
     list-style: none;
     padding: 0;
     margin: 0; }
-    #main-content header ul li {
-      float: left;
-      width: 33.333%; }
-      #main-content header ul li button {
-        display: block;
-        box-sizing: border-box;
-        width: 100%;
-        height: 2em;
-        line-height: 2em;
-        padding: 0;
-        margin: 0;
-        text-align: center; }
+    #main-content header ul li button {
+      display: block;
+      box-sizing: border-box;
+      background-color: transparent;
+      color: #71bfff;
+      width: 100%;
+      height: 3em;
+      line-height: 3em;
+      padding: 0;
+      margin: 20px 0;
+      font-size: 1.6em;
+      text-align: center;
+      outline: none; }
   #main-content #timer {
-    height: 5px;
+    height: 6px;
     background-color: #71bfff; }
     #main-content #timer .timer-marker {
       width: 0%;
       background-color: #98ffd5;
-      height: 5px;
+      height: 6px;
       -webkit-transition: width 100ms linear;
       -moz-transition: width 100ms linear;
       -ms-transition: width 100ms linear;
@@ -5863,22 +5885,158 @@ th.hide-for-touch {
       background-image: url(../images/spinner.gif);
       background-position: center;
       background-repeat: no-repeat; }
-  #main-content .grams-container {
-    position: relative;
-    width: 100%;
-    padding: 100% 0 0;
-    margin: 0;
-    overflow: hidden; }
-    #main-content .grams-container #grams {
-      position: absolute;
-      left: 0;
-      top: 0;
+  #main-content .gram-gallery {
+    border: 15px double black;
+    padding: 5px;
+    margin-bottom: 20px; }
+    #main-content .gram-gallery .gram-gallery-stage {
+      position: relative;
       width: 100%;
-      height: 100%;
-      -webkit-transition: margin-top .25s ease-in-out;
-      -moz-transition: margin-top .25s ease-in-out;
-      -ms-transition: margin-top .25s ease-in-out;
-      transition: margin-top .25s ease-in-out; }
-  #main-content .thumbs-container #thumbs .gram-item-view {
-    float: left;
-    width: 20%; }
+      padding: 100% 0 0;
+      margin: 0 0 5px;
+      overflow: hidden;
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none; }
+      #main-content .gram-gallery .gram-gallery-stage #grams {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        -webkit-transition: margin-top .25s ease-out;
+        -moz-transition: margin-top .25s ease-out;
+        -ms-transition: margin-top .25s ease-out;
+        transition: margin-top .25s ease-out; }
+        #main-content .gram-gallery .gram-gallery-stage #grams.no-css-transition {
+          -webkit-transition: none;
+          -moz-transition: none;
+          -ms-transition: none;
+          transition: none; }
+        #main-content .gram-gallery .gram-gallery-stage #grams .gram-item-view figure {
+          position: relative;
+          overflow: hidden; }
+          #main-content .gram-gallery .gram-gallery-stage #grams .gram-item-view figure figcaption {
+            box-sizing: border-box;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            padding: 10px;
+            margin: 0 70px -100% 0;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            font-size: 1.25em;
+            line-height: 1.2em;
+            text-shadow: 0 0 10px black;
+            z-index: 2;
+            -webkit-transition: margin-bottom 250ms linear;
+            -moz-transition: margin-bottom 250ms linear;
+            -ms-transition: margin-bottom 250ms linear;
+            transition: margin-bottom 250ms linear; }
+            #main-content .gram-gallery .gram-gallery-stage #grams .gram-item-view figure figcaption .likes {
+              color: white;
+              font-size: 1.2em;
+              margin: 10px 10px 50px;
+              text-shadow: 0 0 5px black; }
+              #main-content .gram-gallery .gram-gallery-stage #grams .gram-item-view figure figcaption .likes i {
+                color: #EB5190;
+                margin-right: 5px; }
+            #main-content .gram-gallery .gram-gallery-stage #grams .gram-item-view figure figcaption p {
+              margin: 10px;
+              overflow: hidden;
+              text-overflow: ellipsis; }
+              #main-content .gram-gallery .gram-gallery-stage #grams .gram-item-view figure figcaption p a {
+                color: #98ffd5;
+                text-decoration: underline; }
+        #main-content .gram-gallery .gram-gallery-stage #grams .gram-item-view:hover figcaption, #main-content .gram-gallery .gram-gallery-stage #grams .gram-item-view.selected figcaption {
+          margin-bottom: 0; }
+      #main-content .gram-gallery .gram-gallery-stage .controls {
+        width: 50px;
+        margin: 10px;
+        z-index: 1; }
+        #main-content .gram-gallery .gram-gallery-stage .controls button {
+          display: block;
+          background-color: black;
+          background-color: rgba(255, 255, 255, 0.5);
+          width: 50px;
+          height: 50px;
+          line-height: 42px;
+          padding: 0;
+          border-radius: 50%;
+          border: 5px solid black;
+          margin: 0;
+          text-align: center;
+          overflow: hidden;
+          outline: none;
+          filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=10);
+          opacity: 0.1;
+          -webkit-transition: opacity 250ms linear;
+          -moz-transition: opacity 250ms linear;
+          -ms-transition: opacity 250ms linear;
+          transition: opacity 250ms linear; }
+          #main-content .gram-gallery .gram-gallery-stage .controls button i {
+            color: black;
+            font-size: 2.5em; }
+          html.touch #main-content .gram-gallery .gram-gallery-stage .controls button {
+            display: none; }
+        #main-content .gram-gallery .gram-gallery-stage .controls.prev-disabled .prev {
+          display: none; }
+        #main-content .gram-gallery .gram-gallery-stage .controls.next-disabled .next {
+          display: none; }
+        html.touch #main-content .gram-gallery .gram-gallery-stage .controls {
+          width: 100%;
+          height: 100%;
+          margin: 0; }
+      #main-content .gram-gallery .gram-gallery-stage:hover .controls button, html.touch #main-content .gram-gallery .gram-gallery-stage .controls button {
+        filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+        opacity: 1; }
+  #main-content .thumbs-stage #thumbs {
+    overflow: hidden;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; }
+    #main-content .thumbs-stage #thumbs .thumb-item-view {
+      float: left;
+      width: 20%; }
+      #main-content .thumbs-stage #thumbs .thumb-item-view img.loaded {
+        -webkit-filter: grayscale(100%);
+        -moz-filter: grayscale(100%);
+        -ms-filter: grayscale(100%);
+        filter: grayscale(100%); }
+      #main-content .thumbs-stage #thumbs .thumb-item-view.highlighted img.loaded {
+        -webkit-filter: grayscale(0%);
+        -moz-filter: grayscale(0%);
+        -ms-filter: grayscale(0%);
+        filter: grayscale(0%); }
+
+.abs-top,
+.abs-left,
+.abs-right,
+.abs-bottom,
+.abs-middle,
+.abs-center {
+  position: absolute; }
+
+.abs-left {
+  left: 0; }
+
+.abs-right {
+  right: 0; }
+
+.abs-top {
+  top: 0; }
+
+.abs-bottom {
+  bottom: 0; }
+
+.abs-middle {
+  top: 50%; }
+
+.abs-center {
+  left: 50%; }
