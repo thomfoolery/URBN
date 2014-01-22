@@ -7,10 +7,12 @@ window.URBN = {
 
   App:         new Backbone.Marionette.Application(),
 
+  isReady:     new $.Deferred(),
+
   init: function () {
     'use strict';
 
-// UNDERSCORE templating engine
+    // UNDERSCORE templating engine
     _.templateSettings = {
       evaluate : /\{\[([\s\S]+?)\]\}/g,
       interpolate : /\{\{(.+?)\}\}/g // mustache templating style
@@ -18,32 +20,106 @@ window.URBN = {
 
     var INTERVAL         = 100
       , THUMB_COUNT      = 10
-      , REFRESH_DURATION = 15 * 60 * 1000
       ;
 
+
+    // APP INITIALIZERS
+    URBN.App.addInitializer( function () {
+      URBN.Collections.grams.fetch();
+    });
+
+    // unecessary use of deferred/promise
+    // to demonstrate knowledge of ansyncronous,
+    // and functional programming
+    $.when( URBN.isReady )
+      .then( function () {
+
+        URBN.App.start()
+
+        // change format size
+        $('header button').on('click', function ( e ) {
+
+          // on transition end
+          $('#main-content').on("transitionend webkitTransitionEnd oTransitionEnd MSTransitionEnd", function () {
+            // off transition end
+            $('#main-content').off("transitionend webkitTransitionEnd oTransitionEnd MSTransitionEnd");
+            URBN.Views.grams.scrollToIndex();
+          });
+
+          $('#main-content').removeClass('small medium large').addClass( $( e.target ).text().toLowerCase() );
+          URBN.Views.grams.scrollToIndex();
+
+        });
+      })
+    ;
+
+
+
     // MODELS
-    var GramModel = Backbone.Model.extend({
-      "defaults": {},
-      "initialize": function () {}
+
+    // This model controls which image to showcase
+    // and when to fetch more data from the instagram API
+
+    var ControlModel = Backbone.Model.extend({
+      "defaults": {
+        "index": 0,
+        "page":  0
+      },
+      "initialize": function () {
+        this.on('change:index', _.bind( this.change_index, this ));
+        this.on('change:page',  _.bind( this.change_page,  this ));
+      },
+      "change_page": function () {
+
+        var page = URBN.Models.controls.get('page');
+
+        if ( URBN.Collections.grams.length < THUMB_COUNT * ( page +1 ) ) {
+          // not enough data
+          // fetch more
+          URBN.Collections.grams.fetch();
+        }
+        else {
+
+          var start = page  * THUMB_COUNT
+            , end   = start + THUMB_COUNT;
+
+          URBN.Collections.subset.reset( URBN.Collections.grams.slice( start, end ) );
+        }
+      },
+      "change_index": function () {
+
+        var model = URBN.Models.controls
+          , index = model.get('index')
+          ;
+
+        if ( index < 0 ) {
+          model.set({"index": THUMB_COUNT -1 });
+          model.set({"page":  model.get('page') -1 });
+        }
+
+        if ( index >= URBN.Collections.subset.length ) {
+          model.set({"index": 0 });
+          model.set({"page":  model.get('page') +1 });
+        }
+      }
     });
 
 
 
     // COLLECTIONS
+
+    // This collection will store ALL of the instagram objects.
+    // It will take care of all fetching, caching & sorting.
+
     var GramCollection = Backbone.Collection.extend({
-
-      "model": GramModel,
-
+      "model": Backbone.Model,
       "url": 'https://api.instagram.com/v1/tags/{{tagName}}/media/recent?count=15&client_id={{clientID}}',
-
       "initialize": function ( models, options ){
         _.extend( this, options );
       },
-
       "comparator": function ( a, b ) {
         return parseInt( b.get('created_time'), 10 ) - parseInt( a.get('created_time'), 10 );
       },
-
       "fetch": function ( additionalQueryParams ) {
 
         var self = this
@@ -63,44 +139,25 @@ window.URBN = {
             self.add( resp.data );
             self.trigger('fetched');
 
+            // store the url of the next page of data
+            // a little bit of trickery so as to not use the previous jQuery JSONP callback function
             self.nextUrl = URL + '&max_tag_id=' + resp.pagination.next_url.split('&max_tag_id=').pop();
+
+            // trigger page change incase we were fetching data for the next page,
+            // otherwise nothing will happen
             URBN.Models.controls.trigger('change:page');
 
-            // if there are enough pics for
-            // thumbnails return
             if ( self.length >= THUMB_COUNT )
               return; // EXIT
 
+            // if there were not enough models to fill the thumbnails section
+            // fetch some more
             this.fetch();
 
           })
         ;
       }
     });
-
-    var GramSubset = Backbone.Collection.extend({
-
-      "model": GramModel,
-
-      "initialize": function ( models, options ){
-        // check superset is passed in
-        if ( ! options.superset )
-          throw new Error('GramSubset expects a superset to be passed in on initialization'); // EXIT
-
-        _.extend( this, options );
-
-        // on super set successfully updated
-        this.superset.on('add', _.bind( this.update, this ) );
-      },
-
-      "update": function () {
-        // instagram doesnt always respond with 15 items
-        // so use highest possble multiple of 5 to a max of 15
-        this.reset( this.superset.first( Math.min( Math.floor( this.superset.length / 5 ) * 5, 15 ) ) );
-      }
-
-    });
-
 
 
     // VIEWS
@@ -162,26 +219,6 @@ window.URBN = {
       }
     });
 
-    // OBJECTS
-    URBN.Models.controls = new Backbone.Model({
-      "index": 0,
-      "page":  0
-    });
-
-    URBN.Collections.grams = new GramCollection( null, {
-      "tagName":  'freepeople',
-      "clientID": '96bb8a35ad884030b1bf55d53a3aecf0'
-    });
-
-    URBN.Collections.subset = new GramSubset( null, {
-      "superset": URBN.Collections.grams
-    });
-
-    URBN.Views.grams = new GramListView({
-      "el": '#grams',
-      "collection": URBN.Collections.subset
-    });
-
     var GramsControlView = Backbone.View.extend({
       "el": '.gram-gallery-stage .controls',
       "events": {
@@ -191,7 +228,7 @@ window.URBN = {
         "click button.next": 'click_next'
       },
       "initialize": function () {
-        this.model.on('change:page',  _.bind( this.change_page,  this ));
+        // this.model.on('change:page',  _.bind( this.change_page,  this ));
         this.model.on('change:index', _.bind( this.change_index, this ));
         this.listenTo( URBN.Views.grams, 'render', _.bind( this.change_index, this ) );
       },
@@ -255,55 +292,48 @@ window.URBN = {
           this.$el.addClass('prev-disabled');
         else
           this.$el.removeClass('prev-disabled');
-
-        if ( index < 0 ) {
-          this.model.set({"index": THUMB_COUNT -1 });
-          this.model.set({"page":  this.model.get('page') -1 });
-        }
-
-        if ( index >= URBN.Collections.subset.length ) {
-          this.model.set({"index": 0 });
-          this.model.set({"page":  this.model.get('page') +1 });
-        }
-      },
-      "change_page": function () {
-
-        var page = this.model.get('page');
-
-        if ( URBN.Collections.grams.length < THUMB_COUNT * ( page +1 ) ) {
-          URBN.Collections.grams.fetch();
-        }
-        else {
-          URBN.Collections.subset.reset( URBN.Collections.grams.slice( page * THUMB_COUNT, page * THUMB_COUNT + THUMB_COUNT ) );
-        }
       }
     });
 
-    URBN.Views.controls = new GramsControlView({
-      "model": URBN.Models.controls
+
+
+    // INSTANCES
+
+    // this model controls which image is being featured
+    // add which page of thumbnails we are on
+    URBN.Models.controls = new ControlModel();
+
+    // Here we have a master collection of instagram object.
+    URBN.Collections.grams = new GramCollection( null, {
+      "tagName":  'freepeople',
+      "clientID": '96bb8a35ad884030b1bf55d53a3aecf0'
     });
 
+    // Here we have a subset collection that we will use to
+    // feed the thumb nail view.
+    URBN.Collections.subset = new Backbone.Collection();
+
+    // This is the main view
+    URBN.Views.grams = new GramListView({
+      "el": '#grams',
+      "collection": URBN.Collections.subset
+    });
+
+    // This is the thumbnail view
     URBN.Views.thumbs = new ThumbListView({
       "el": '#thumbs',
       "collection": URBN.Collections.subset
     });
 
-    URBN.Collections.grams.fetch();
-
-    // change format size
-    $('header button').on('click', function ( e ) {
-
-      // on transition end
-      $('#main-content').on("transitionend webkitTransitionEnd oTransitionEnd MSTransitionEnd", function () {
-        // off transition end
-        $('#main-content').off("transitionend webkitTransitionEnd oTransitionEnd MSTransitionEnd");
-        URBN.Views.grams.scrollToIndex();
-      });
-
-      $('#main-content').removeClass('small medium large').addClass( $( e.target ).text().toLowerCase() );
-      URBN.Views.grams.scrollToIndex();
-
+    // This view controls the main view and the thuimbnail view
+    URBN.Views.controls = new GramsControlView({
+      "model": URBN.Models.controls
     });
+
+
+
+    // URBN is ready
+    URBN.isReady.resolve();
   }
 };
 

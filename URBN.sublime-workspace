@@ -1,0 +1,2166 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"z-",
+				"z-index"
+			],
+			[
+				"no",
+				"nowrap"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"text-",
+				"text-indent"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"Map",
+				"MapListViewModel({properties})"
+			],
+			[
+				"repa",
+				"repeat-x"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"bord",
+				"border-color"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"ov",
+				"overflow"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"layer",
+				"layerModel	(?)"
+			],
+			[
+				"mous",
+				"mouseover_cluster"
+			],
+			[
+				"des",
+				"destroyChildViews"
+			],
+			[
+				"set",
+				"setTimeout"
+			],
+			[
+				"LI",
+				"LIST_COUNT"
+			],
+			[
+				"child",
+				"childViews"
+			],
+			[
+				"scrollTo",
+				"scrollToListing"
+			],
+			[
+				"proper",
+				"property"
+			],
+			[
+				"prop",
+				"property"
+			],
+			[
+				"str",
+				"streetviewService"
+			],
+			[
+				"mouse",
+				"mouseenter"
+			],
+			[
+				"MapQ",
+				"MapQuickViewCarouselView"
+			],
+			[
+				"default",
+				"defaultAddress"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"PROP",
+				"PROPERTY_TYPE"
+			],
+			[
+				"submit",
+				"submit"
+			],
+			[
+				"prima",
+				"primary"
+			],
+			[
+				"F",
+				"FETCH_BY_BUILDER_ID"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"max",
+				"maxPrice"
+			],
+			[
+				"find",
+				"findValueIndex"
+			],
+			[
+				"pri",
+				"pricesArray"
+			],
+			[
+				"lis",
+				"listingCount"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"stop",
+				"stopPropagation"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"padding-",
+				"padding-left"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"la",
+				"layerKey"
+			],
+			[
+				"SE",
+				"SESSION_SEARCH"
+			],
+			[
+				"is",
+				"isSelected"
+			],
+			[
+				"$",
+				"$target"
+			],
+			[
+				"loc",
+				"localStorage"
+			],
+			[
+				"mrgin",
+				"margin-top"
+			],
+			[
+				"total",
+				"totalCount"
+			],
+			[
+				"tot",
+				"totalPropertyCount"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"zoom",
+				"zoomOnClick"
+			],
+			[
+				"pro",
+				"property"
+			],
+			[
+				"book",
+				"bookmarks"
+			],
+			[
+				"B",
+				"BOOKMARK_CLUSTERER"
+			],
+			[
+				"cluster",
+				"clusterer"
+			],
+			[
+				"pr",
+				"property"
+			],
+			[
+				"VIP",
+				"VIP_CLUSTERER"
+			],
+			[
+				"labelC",
+				"labelClass"
+			],
+			[
+				"marker",
+				"markerOptions"
+			],
+			[
+				"lay",
+				"layer"
+			],
+			[
+				"selected",
+				"selectedProperty"
+			],
+			[
+				"bui",
+				"builderID"
+			],
+			[
+				"IE",
+				"IE_flip"
+			],
+			[
+				"css",
+				"csstransforms3d"
+			],
+			[
+				"$a",
+				"$activateAccountMessageSent"
+			],
+			[
+				"dis",
+				"displayActivationMessage"
+			],
+			[
+				"de",
+				"deferred"
+			],
+			[
+				"chec",
+				"checkUserExists"
+			],
+			[
+				"login",
+				"login_type"
+			],
+			[
+				"fetc",
+				"fetchUserData"
+			],
+			[
+				"ATTEM",
+				"ATTEMPTING_FB_REGISTRATION"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"backgroun",
+				"background-image"
+			],
+			[
+				"margin-",
+				"margin-right"
+			],
+			[
+				"backg",
+				"background-image"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"map-qui",
+				"map-quick-view-open"
+			],
+			[
+				"paddin",
+				"padding-left"
+			],
+			[
+				"top",
+				"topScrollOffset"
+			],
+			[
+				"remove",
+				"removeClass"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"prev",
+				"preventDefault"
+			],
+			[
+				"add",
+				"addClass"
+			],
+			[
+				"res",
+				"responseMessage"
+			],
+			[
+				"defa",
+				"defaultHTML"
+			],
+			[
+				"def",
+				"Deferred"
+			],
+			[
+				"isLo",
+				"isLoggedIn"
+			],
+			[
+				"fe",
+				"fetchUserName"
+			],
+			[
+				"user",
+				"username"
+			],
+			[
+				"border-",
+				"border-bottom"
+			],
+			[
+				"mod",
+				"moduleReady"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"$list",
+				"$listStyle"
+			],
+			[
+				"show",
+				"showBookmarkMenu"
+			],
+			[
+				"$pr",
+				"$projectLink"
+			],
+			[
+				"pag",
+				"pageDelimiter"
+			],
+			[
+				"page",
+				"pagesPerTick"
+			],
+			[
+				"$price",
+				"$pricePoint"
+			],
+			[
+				"lab",
+				"labelContent"
+			],
+			[
+				"pice",
+				"price_min"
+			],
+			[
+				"mark",
+				"markers"
+			],
+			[
+				"bookm",
+				"bookmarkType"
+			],
+			[
+				"sum",
+				"summaryData"
+			],
+			[
+				"clic",
+				"clickable"
+			],
+			[
+				"e",
+				"extend"
+			],
+			[
+				"p",
+				"property"
+			],
+			[
+				"remo",
+				"removeClass"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"has",
+				"hasIntroSplash"
+			],
+			[
+				"bar",
+				"barSizes"
+			],
+			[
+				"step",
+				"stepSize"
+			],
+			[
+				"listen",
+				"listenTo"
+			],
+			[
+				"clear",
+				"clearInterval"
+			],
+			[
+				"sort",
+				"sortOrder"
+			],
+			[
+				"PRE",
+				"PREVIOUS_SEARCH"
+			],
+			[
+				"STOR",
+				"STORE_PREVIOUS_SEARCH"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/index.html",
+			"settings":
+			{
+				"buffer_size": 4644,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/styles/main.scss",
+			"settings":
+			{
+				"buffer_size": 8213,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/scripts/main.js",
+			"settings":
+			{
+				"buffer_size": 9410,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/SASS Build/SASS - Compressed.sublime-build",
+	"command_palette":
+	{
+		"height": 247.0,
+		"selected_items":
+		[
+			[
+				"packas",
+				"Package Control: Disable Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"b",
+				"Bookmarks: Select Previous"
+			],
+			[
+				"bv",
+				"Bookmarks: Select Previous"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Emmet: Increment Number by 1"
+			],
+			[
+				"pa",
+				"Package Control: List Packages"
+			],
+			[
+				"",
+				"About"
+			],
+			[
+				"B",
+				"Build: Minify"
+			],
+			[
+				"b ",
+				"Build: Minify"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"v",
+				"View: Toggle Minimap"
+			],
+			[
+				"bn",
+				"Bookmarks: Select Next"
+			],
+			[
+				"c",
+				"Code Folding: Unfold All"
+			],
+			[
+				"form",
+				"Format: Javascript"
+			],
+			[
+				"pre",
+				"HTMLPrettify: Prettify"
+			],
+			[
+				"js",
+				"Set Syntax: JSON"
+			],
+			[
+				"prett",
+				"HTMLPrettify: Prettify"
+			],
+			[
+				"tidy",
+				"TidyHTML"
+			],
+			[
+				"html",
+				"Tidy HTML"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"vb",
+				"View: Toggle Side Bar"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"for",
+				"Format: Javascript"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"tid",
+				"Tidy HTML"
+			],
+			[
+				"lin",
+				"JSHint: Linter"
+			],
+			[
+				"syn",
+				"Set Syntax: LESS"
+			],
+			[
+				"HTML",
+				"Tidy HTML"
+			],
+			[
+				"up",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"bb",
+				"Build: Build"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"buil",
+				"Build: Minify"
+			],
+			[
+				"bui",
+				"Build: Minify"
+			],
+			[
+				"packa",
+				"Package Control: List Packages"
+			],
+			[
+				"forma",
+				"Format: Javascript"
+			],
+			[
+				"Pretty",
+				"HTMLPrettify: Prettify"
+			],
+			[
+				"build",
+				"Build: Minify"
+			],
+			[
+				"bu",
+				"Build: Minify"
+			],
+			[
+				"BUI",
+				"Build: Minify"
+			],
+			[
+				"fet",
+				"Fetch: Manage remote files"
+			],
+			[
+				"bul",
+				"Build: Minify"
+			],
+			[
+				"mini",
+				"Build: Minify"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"git",
+				"Git: Init"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 579.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/thomasyuill/Development/URBN/URBN.sublime-project",
+		"/Users/thomasyuill/Development/URBN/package.json",
+		"/Users/thomasyuill/Development/URBN/Gruntfile.js",
+		"/Users/thomasyuill/Development/st2-projects/realty.teller.sublime-project",
+		"/Users/thomasyuill/Library/Application Support/Sublime Text 2/Packages/User/SublimeOnSaveBuild.sublime-settings",
+		"/Users/thomasyuill/Library/Application Support/Sublime Text 2/Packages/SublimeOnSaveBuild/SublimeOnSaveBuild.sublime-settings",
+		"/Users/thomasyuill/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/application/modules/default/views/scripts/list/cities-index.phtml",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/application/modules/default/views/scripts/list/city-listings.phtml",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/application/modules/default/views/scripts/list/hood-listings.phtml",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/application/modules/default/views/scripts/list/intersection-listings.phtml",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/application/modules/default/views/scripts/list/street-listings.phtml",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/scripts/new/trp.app.js",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/scripts/new/page/list.js",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/application/modules/default/views/scripts/agent/agent-profile.phtml",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/styles/less/main.less",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/scripts/list.js",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/styles/less/pages/agent.less",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/styles/less/pages/agent-list.less",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/styles/less/pages/list.less",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/library/RT/Widgets/ListView/views/presale.phtml",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/application/modules/default/views/scripts/contact-form/buyer-prospect-match.phtml",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/library/RT/Widgets/Properties/views/rand-cities.phtml",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/library/RT/Widgets/Properties/views/rand-hoods.phtml",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/library/RT/Widgets/Properties/views/rand-intersections.phtml",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/library/RT/Widgets/Properties/views/top-cities.phtml",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/library/RT/Widgets/Properties/views/top-hoods.phtml",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/library/RT/Widgets/Properties/views/top-streets.phtml",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/application/layouts/partials/analytics.google.partial.phtml",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/scripts/new/module/search.js",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/scripts/new/module/user.account.js",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/styles/less/modules/account-panel.less",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/application/layouts/partials/account/panel.phtml",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/application/layouts/main.phtml",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/application/layouts/partials/account/login.phtml",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/application/layouts/partials/map/list-view.phtml",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/scripts/new/map/quick.view.js",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/scripts/new/helpers/utils.js",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/library/RT/Contact/BuyerProspectMatch.php",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/application/modules/default/views/scripts/contact-form-tracker/index.phtml",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/styles/less/global.less",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/styles/less/modules/ui/contact-form.less",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/library/RT/Widgets/ContactTool/views/buyer-prospect-match.phtml",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/application/modules/vow/controllers/PropertyController.php",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/application/modules/default/views/scripts/account/bookmarks.phtml",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/library/RT/Widgets/ListView/views/pagination.partial.phtml",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/styles/less/pages/bookmarks-list.less",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/application/layouts/partials/promo-agent-profiles.partial.phtml",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/scripts/new/map/list.view.js",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/scripts/new/map/filters.js",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/scripts/new/map/markers.js",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/scripts/new/map/main.js",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/styles/less/modules/map/quick-view.less",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/styles/less/modules/map/list-view.less",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/styles/less/modules/ui/form-elements.less",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/styles/less/modules/ui/multiselect.less",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/styles/less/modules/map/search-filters-secondary.less",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/application/bootstrap.php",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/styles/less/brokerage-revamp.less",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/styles/less/modules/contact-form.less",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/styles/less/modules/lightbox.less",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/application/modules/default/controllers/ListController.php",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/application/modules/default/views/scripts/list/searchform.partial.phtml",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/library/RT/Widgets/ListView/views/resale.phtml",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/scripts/new/module/agents.js",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/styles/less/pages/property.less",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/application/layouts/partials/modules/promo-agent-profiles.partial.phtml",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/application/layouts/partials/map/search-filters-primary.partial.phtml",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/library/RT/Widgets/ContactTool/Controller.php",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/library/RT/Widgets/Properties/TopCities.php",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/application/modules/default/controllers/ContactFormController.php",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/styles/less/icons.less",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/styles/less/modules/map/container.less",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/scripts/manager.search.js",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/styles/less/modules/map/search-filters-primary.less",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/application/layouts/partials/header.phtml",
+		"/Users/thomasyuill/Projects/dev-setup/manifests/dev01-vagrant.pp",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/styles/less/modules/map/splash.less",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/blog/wp-content/themes/wp-mediamag-basic/style.css",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/styles/less/modules/map/price-graph.less",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/styles/less/modules/global-search.less",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/application/layouts/partials/map/search-filters-secondary.partial.phtml",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/scripts/new/map/price.graph.js",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/scripts/new/map/plugins.js",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/styles/less/pages/buying-a-home.less",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/styles/less/modules/ui/tool-tip.less",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/application/layouts/partials/map/splash.partial.phtml",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/styles/less/modules/top-bar.less",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/scripts/new/vendor/memoryleakChecker.js",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/scripts/vendor/memoryleakChecker.js",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/styles/less/modules/map/marker.less",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/dialogs/no-storage.html",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/application/modules/default/controllers/BuyingAHomeController.php",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/application/modules/default/controllers/CompanyInfoController.php",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/scripts/plugins.old.js",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/scripts/new/helpers/plugins.js",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/styles/less/modules/main-nav.less",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/config/app_config_dev.ini",
+		"/Users/thomasyuill/Projects/dev-setup/id_rsa",
+		"/Users/thomasyuill/Projects/dev-setup/modules/auth/files/id_rsa",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/config/app_config_prod.ini",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/application/layouts/partials/map/secondary-search-filters.partial.phtml",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/styles/less/modules/map/search-filters-.less\nsearch-filters-secondary.less",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/styles/less/modules/map/search-filters.less",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/styles/less/modules/map/primary-search-filters.less",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/application/layouts/partials/map/primary-search-filters.partial.phtml",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/scripts/new/map/search.js",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/application/layouts/partials/map/search-filters.partial.phtml",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/application/layouts/partials/search-filters.partial.phtml",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/styles/less/modules/search-filters.less",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/scripts/new/page/property.js",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/styles/less/modules/sub-navigation.less",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/application/layouts/partials/map/quick-view.partial.phtml",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/scripts/manager.quick.view.js",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/application/layouts/partials/footer.phtml",
+		"/Users/thomasyuill/Downloads/prettyPhoto_compressed_3.1.5/js/jquery.prettyPhoto.js",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/application/modules/default/views/scripts/agent/index.phtml",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/.htaccess",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/dialogs/private-browsing.html",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/scripts/main.old.js",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/blog/wp-content/themes/wp-mediamag-basic/trp_header.php",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/scripts/new/vendor/storage.js",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/styles/css/brokerage-revamp.css",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/styles/css/global.css",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/application/layouts/partials/analytics.chango.cp.partial.phtml",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/application/layouts/contact-form-tracker.phtml",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/application/layouts/contact-form.phtml",
+		"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/application/layouts/empty.phtml"
+	],
+	"find":
+	{
+		"height": 46.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/styles/less",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/styles/less",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/scripts/new",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/scripts/new",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/scripts/new",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/styles/less",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/scripts/new",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/styles/less",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/scripts/new",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/styles/less",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/styles/less",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/styles",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/scripts/new",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/scripts",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/scripts/new",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/scripts",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/scripts",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/styles/less/",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/less/",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/styles/less",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/scripts/new",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/styles/less",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/scripts/new",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/scripts/new",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/scripts/new",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/application",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/application/modules",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/application/modules/service/controllers",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/application/layouts/partials/account",
+			"/Users/thomasyuill/Projects/dev-setup/code/",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/styles/less",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/styles/less",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/styles/less",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/less",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/styles/less",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/styles/less",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/styles",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/scripts/new",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/styles/less",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/scripts/new",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/scripts/",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/scripts/new",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/scripts/new",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/scripts",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/scripts",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/",
+			"public/scripts",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/scripts",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/scripts",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/",
+			"/Users/thomasyuill/Projects/dev-setup/",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/scripts",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/scripts",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/scripts",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/scripts",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/scripts",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/scripts",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/scripts",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller",
+			"/Users/thomasyuill/Projects/dev-setup/RealtyTellor",
+			"/Users/thomasyuill/Projects/dev-setup/RealtyTellor/public",
+			"/Users/thomasyuill/Projects/dev-setup/RealtyTellor/public/",
+			"/Users/thomasyuill/Projects/dev-setup/RealtyTellor/public/scripts",
+			"/Users/thomasyuill/Projects/dev-setup",
+			"",
+			"/Users/thomasyuill/Projects/dev-setup/",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/styles/",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/scripts/",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/scripts/",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/blog",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/scripts/new/",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/styles/less/brokerage-revamp.less",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/styles/less",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/scripts/new",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/styles/less",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/scripts/new",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/prototype",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/blog",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/public/prototype",
+			"/Users/thomasyuill/Projects/dev-setup/code/RealtyTeller/application/modules/service/controllers/"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			".8em;",
+			"'page') +1",
+			"set({\"pag",
+			"index",
+			"change:index",
+			"URBN.Models.controls",
+			"$mint",
+			"GramListView",
+			"fetching",
+			"TimerView",
+			"TimerModel",
+			"URBN.Views.timer",
+			"TimerModel",
+			"1em",
+			"e.pre",
+			"grey",
+			"URBN.Views.subset",
+			"touchstart",
+			"grey",
+			"-in",
+			"offset",
+			"margin-top .25s ease-in-out",
+			"ease-in-out",
+			"index",
+			"100",
+			"uglify",
+			"hint",
+			"98ffd5",
+			"#71bfff",
+			"5px",
+			"10px",
+			"opacity",
+			".6",
+			"container",
+			"grams-",
+			"line-h",
+			"container",
+			"-container",
+			"grams-container",
+			"contr",
+			"heigh",
+			"likes",
+			"opacity",
+			"ease-in-out",
+			"<li>",
+			"this.model.get('index')",
+			"prev",
+			"URBN.Models.controls",
+			"ControlView",
+			"slider",
+			"scroll",
+			"\\u",
+			"\\[",
+			"new RegExp(",
+			"}",
+			"{",
+			"/",
+			".",
+			"p-abs ",
+			"fetched",
+			"superSet",
+			"standard_resolution",
+			"promo",
+			"class=\"disabled-message",
+			"disa",
+			"class=\"hero-image",
+			"class=\"precon-promo",
+			"http://dev01.theredpin.com/images/agents/profile_6.png",
+			"Hold CMD(Apple) or CTRL(Windows) to select mulitple hoods.",
+			"2em",
+			"class=\"precon-promo",
+			"class=\"top-5-widget",
+			"an",
+			"#sort-by",
+			"attempting-fb",
+			"attempting-",
+			"attempting",
+			"attempt",
+			"account-loading-message",
+			"change_isLoading",
+			"load",
+			"is-displ",
+			"display: none",
+			"change_isDisplayingMessage",
+			"isDisplayingMessage",
+			"isLoading",
+			"fetchUserData",
+			"clear",
+			"loading",
+			"activation",
+			"'displayActivationMessage'",
+			"$activateAccountMessage",
+			"message",
+			"tpl",
+			"The Red Pin",
+			"Your request has been submitted to TheRedPin and one of our friendly representatives will be in touch shortly",
+			"TRP.App.build",
+			"class=\"quick-links",
+			"input[type=text]",
+			"[type=",
+			".bookmark-sub-navigation",
+			"bookmark-sub-navigation",
+			"reload-after-login",
+			"TRP.initBoundariesMap",
+			"TRP.ListPage.initListMap",
+			"..",
+			"TRP.initListMap",
+			"listPage",
+			"listViewStyle",
+			"city-listings",
+			"citylistings",
+			"listings",
+			"Listings",
+			"listings",
+			"reload-after-login",
+			"<strong>XX</strong>",
+			"XX",
+			"tpl-promo-agent-profiles",
+			"class=\"quick-link",
+			"resolve",
+			"serializeForm",
+			"serial",
+			"resetFetchByBuilder",
+			"resetB",
+			"TRP.Map.views.googleMap",
+			"! TRP.Map.views.googleMap",
+			"TRP.Map.views.googleMap",
+			"notif"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"font-family: Arial, \"Helvetica Neue\", Helvetica, sans-serif;",
+			"font-family: Tahoma, Verdana, Segoe, sans-serif;",
+			"font-family: \"Helvetica Neue\", Helvetica, Arial, sans-serif;",
+			"moduleReady.resolve()",
+			"MapListView",
+			"MapMarkers",
+			"'), ('",
+			"$content",
+			"/images/redesign/highslide-graphics/",
+			"sessionStorage",
+			"<li class=\"checkbox-wrap\">",
+			"ELS.form",
+			"\"query\"",
+			"\"id\"",
+			"\"subcategory\":",
+			"\"category\":",
+			"}}",
+			"{{",
+			"side-bar",
+			"<?php\n  $this->inlineScript()->appendScript( ob_get_clean() );\n<?php\n  $this->inlineScript()->appendFile(\"",
+			"<?php\n  $this->inlineScript()->appendScript( ob_get_clean() );\n.js\"); ?>",
+			"<?php\n  $this->inlineScript()->appendScript( ob_get_clean() );\n?>",
+			"<?php\n    ob_start(); // INLINE SCRIPT\n?>",
+			"('/images",
+			"(\"/images",
+			"(/images",
+			"../images",
+			"../../images",
+			"@import \"",
+			"phtml",
+			"<?= $this->partial('partials/",
+			"&reg;",
+			""
+		],
+		"reverse": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/index.html",
+					"settings":
+					{
+						"buffer_size": 4644,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1588,
+								1588
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"incomplete_sync": null,
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"remote_loading": false,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 222.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/styles/main.scss",
+					"settings":
+					{
+						"buffer_size": 8213,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								997,
+								997
+							],
+							[
+								1216,
+								1216
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"incomplete_sync": null,
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"remote_loading": false,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"synced": false,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 14.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/scripts/main.js",
+					"settings":
+					{
+						"buffer_size": 9410,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8176,
+								8176
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"incomplete_sync": null,
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"remote_loading": false,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3553.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 36.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 128.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"replace":
+	{
+		"height": 67.0
+	},
+	"save_all_on_build": false,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"citi",
+				"application/modules/default/views/scripts/list/cities-index.phtml"
+			],
+			[
+				"list.le",
+				"public/styles/less/pages/list.less"
+			],
+			[
+				"buyer",
+				"application/modules/default/views/scripts/contact-form/buyer-prospect-match.phtml"
+			],
+			[
+				"buye",
+				"library/RT/Contact/BuyerProspectMatch.php"
+			],
+			[
+				"buy",
+				"application/modules/default/views/scripts/contact-form/buyer-prospect-match.phtml"
+			],
+			[
+				"paginatio",
+				"library/RT/Widgets/ListView/views/pagination.partial.phtml"
+			],
+			[
+				"list.js",
+				"public/scripts/new/map/list.view.js"
+			],
+			[
+				"city-lis",
+				"application/modules/default/views/scripts/list/city-listings.phtml"
+			],
+			[
+				"b",
+				"application/bootstrap.php"
+			],
+			[
+				"prospe",
+				"library/RT/Widgets/ContactTool/views/buyer-prospect-match.phtml"
+			],
+			[
+				"search",
+				"application/modules/default/views/scripts/list/searchform.partial.phtml"
+			],
+			[
+				"pagina",
+				"library/RT/Widgets/ListView/views/pagination.partial.phtml"
+			],
+			[
+				"listcon",
+				"application/modules/default/controllers/ListController.php"
+			],
+			[
+				"topciti",
+				"library/RT/Widgets/Properties/TopCities.php"
+			],
+			[
+				"contacttool",
+				"library/RT/Widgets/ContactTool/Controller.php"
+			],
+			[
+				"themmedsty",
+				"public/blog/wp-content/themes/wp-mediamag-basic/style.css"
+			],
+			[
+				"app_conf",
+				"config/app_config_prod.ini"
+			],
+			[
+				"layouth",
+				"application/modules/default/controllers/LayoutHelperController.php"
+			],
+			[
+				"rout",
+				"public/routes.php"
+			],
+			[
+				"application/modules/default/views/scripts/index/index.phtml",
+				"application/modules/default/views/scripts/index/index.phtml"
+			],
+			[
+				"agents.less",
+				"public/styles/less/pages/agent-list.less"
+			],
+			[
+				"sub-nav",
+				"public/styles/less/modules/sub-navigation.less"
+			],
+			[
+				"agent-pro",
+				"application/modules/default/views/scripts/agent/agent-profile.phtml"
+			],
+			[
+				"listpresale",
+				"library/RT/Widgets/ListView/views/presale.phtml"
+			],
+			[
+				"requestcon",
+				"application/modules/service/controllers/RequestController.php"
+			],
+			[
+				"buying",
+				"application/modules/default/controllers/BuyingAHomeController.php"
+			],
+			[
+				"buyin",
+				"application/modules/default/views/scripts/buying-a-home/index.phtml"
+			],
+			[
+				"edita",
+				"application/modules/admin/controllers/EditAgentProfileController.php"
+			],
+			[
+				"agents",
+				"library/RT/Widgets/ListView/views/agents.phtml"
+			],
+			[
+				"buying-a",
+				"application/modules/default/views/scripts/buying-a-home/index.phtml"
+			],
+			[
+				"resale.phtml",
+				"library/RT/Widgets/ListView/views/resale.phtml"
+			],
+			[
+				"listind",
+				"application/modules/default/views/scripts/list/streets-index.phtml"
+			],
+			[
+				"listindex",
+				"application/modules/default/views/scripts/list/streets-index.phtml"
+			],
+			[
+				"home",
+				"library/RT/Widgets/Searchbox/views/homepage.phtml"
+			],
+			[
+				"sub-",
+				"public/styles/less/modules/sub-navigation.less"
+			],
+			[
+				"listviewresale",
+				"library/RT/Widgets/ListView/views/resale.phtml"
+			],
+			[
+				"listviewres",
+				"library/RT/Widgets/ListView/Resale.php"
+			],
+			[
+				"listresphtml",
+				"library/RT/Widgets/ListView/views/resale.phtml"
+			],
+			[
+				"agent",
+				"application/modules/default/controllers/AgentController.php"
+			],
+			[
+				"preconcon",
+				"application/modules/default/controllers/PreconProjectController.php"
+			],
+			[
+				"propcontr",
+				"application/modules/vow/controllers/PropertyController.php"
+			],
+			[
+				"listresale",
+				"library/RT/Widgets/ListView/views/resale.phtml"
+			],
+			[
+				"pagin",
+				"library/RT/Widgets/ListView/views/pagination.partial.phtml"
+			],
+			[
+				"paginaphtl",
+				"library/RT/Widgets/ListView/views/pagination.partial.phtml"
+			],
+			[
+				"bookma",
+				"application/modules/default/views/scripts/account/bookmarks.phtml"
+			],
+			[
+				"account",
+				"application/modules/service/controllers/AccountController.php"
+			],
+			[
+				"bookmar",
+				"application/modules/default/views/scripts/account/bookmarks.phtml"
+			],
+			[
+				"presale",
+				"library/RT/Widgets/ListView/Presale.php"
+			],
+			[
+				"",
+				"library/RT/Widgets/ListView/views/presale.phtml"
+			],
+			[
+				"hood",
+				"application/modules/default/views/scripts/list/hood-listings.phtml"
+			],
+			[
+				"accountcon",
+				"application/modules/default/controllers/AccountController.php"
+			],
+			[
+				"list",
+				"application/modules/default/controllers/ListController.php"
+			],
+			[
+				"liststree",
+				"application/modules/default/views/scripts/list/streets-index.phtml"
+			],
+			[
+				"propcon",
+				"application/modules/vow/controllers/PropertyController.php"
+			],
+			[
+				"contprop",
+				"application/modules/vow/controllers/PropertyController.php"
+			],
+			[
+				"contrprop",
+				"application/modules/api/controllers/PropertyController.php"
+			],
+			[
+				"contprecon",
+				"application/modules/default/controllers/PreconProjectController.php"
+			],
+			[
+				"contrprecon",
+				"application/modules/default/controllers/PreconProjectController.php"
+			],
+			[
+				"cities",
+				"application/modules/default/views/scripts/list/cities-index.phtml"
+			],
+			[
+				"listphtml",
+				"application/modules/default/views/scripts/list/city-listings.phtml"
+			],
+			[
+				"rand",
+				"library/RT/Widgets/Properties/RandHoods.php"
+			],
+			[
+				"preconcontroller",
+				"application/modules/default/controllers/PreconProjectController.php"
+			],
+			[
+				"list.less",
+				"public/styles/less/pages/list.less"
+			],
+			[
+				"hoods-",
+				"application/modules/default/views/scripts/list/hoods-index.phtml"
+			],
+			[
+				"listresale.pht",
+				"library/RT/Widgets/ListView/views/resale.phtml"
+			],
+			[
+				"property.js",
+				"public/scripts/property.js"
+			],
+			[
+				"searchfo",
+				"application/modules/default/views/scripts/list/searchform.partial.phtml"
+			],
+			[
+				"property.phtml",
+				"library/RT/Widgets/PropertyHeader/views/index.phtml"
+			],
+			[
+				"searchfor",
+				"application/modules/default/views/scripts/list/searchform.partial.phtml"
+			],
+			[
+				"city.phtml",
+				"application/modules/default/views/scripts/list/city-listings.phtml"
+			],
+			[
+				"ci",
+				"application/modules/default/views/scripts/list/cities-index.phtml"
+			],
+			[
+				"hoods",
+				"application/modules/default/views/scripts/list/hood-listings.phtml"
+			],
+			[
+				"hoodphtml",
+				"application/modules/default/views/scripts/list/hood-listings.phtml"
+			],
+			[
+				"searchpa",
+				"application/modules/default/views/scripts/list/searchform.partial.phtml"
+			],
+			[
+				"citinde",
+				"application/modules/default/views/scripts/list/cities-index.phtml"
+			],
+			[
+				"bread",
+				"application/modules/default/views/scripts/list/breadcrumbs.partial.phtml"
+			],
+			[
+				"hood.phtml",
+				"application/modules/default/views/scripts/list/hood-listings.phtml"
+			],
+			[
+				"cities-in",
+				"application/modules/default/views/scripts/list/cities-index.phtml"
+			],
+			[
+				"hoods-i",
+				"application/modules/default/views/scripts/list/hoods-index.phtml"
+			],
+			[
+				"hoodphtm",
+				"application/modules/default/views/scripts/list/hood-listings.phtml"
+			],
+			[
+				"seafphtml",
+				"application/modules/default/views/scripts/list/searchform.partial.phtml"
+			],
+			[
+				"searchphtml",
+				"application/modules/default/views/scripts/list/searchform.partial.phtml"
+			],
+			[
+				"controllprop",
+				"application/modules/api/controllers/PropertyController.php"
+			],
+			[
+				"listview.phtml",
+				"application/layouts/partials/list-view.phtml"
+			],
+			[
+				"search-filt",
+				"application/layouts/partials/search-filters.partial.phtml"
+			],
+			[
+				"paginpart",
+				"library/RT/Widgets/ListView/views/pagination.partial.phtml"
+			],
+			[
+				"vowlist",
+				"application/modules/vow/controllers/ListController.php"
+			],
+			[
+				"listviewlist",
+				"library/RT/Widgets/ListView/Listing.php"
+			],
+			[
+				"rtnot",
+				"library/RT/View/Helper/RtNotification.php"
+			],
+			[
+				"notific",
+				"application/modules/service/controllers/NotificationController.php"
+			],
+			[
+				"school.pht",
+				"application/modules/vow/views/scripts/property/schools-daycares.phtml"
+			],
+			[
+				"propertyinde",
+				"application/modules/vow/views/scripts/property/index.phtml"
+			],
+			[
+				"propert",
+				"application/models/Property.php"
+			],
+			[
+				"availableun",
+				"library/RT/Widgets/Preconavailableunits/views/index.phtml"
+			],
+			[
+				"floor",
+				"application/modules/default/views/scripts/precon-project/request-floorplans.partial.phtml"
+			],
+			[
+				"floorpl",
+				"application/modules/default/views/scripts/precon-project/floorplans.phtml"
+			],
+			[
+				"preconheader",
+				"application/modules/default/views/scripts/precon-project/header.phtml"
+			],
+			[
+				"list-viein",
+				"application/modules/default/views/scripts/list-view/index.phtml"
+			],
+			[
+				"widlist",
+				"library/RT/Widgets/ProjectExplorer/views/project-list.phtml"
+			],
+			[
+				"list-view",
+				"application/modules/default/views/scripts/list-view/index.phtml"
+			],
+			[
+				"contactformco",
+				"application/modules/default/controllers/ContactFormController.php"
+			],
+			[
+				"mortgagecalculatorcontroller",
+				"application/modules/default/controllers/MortgageCalculatorController.php"
+			],
+			[
+				"book-a-tour",
+				"application/modules/default/views/scripts/contact-form/book-a-tour.phtml"
+			],
+			[
+				"wp-mediahead",
+				"public/blog/wp-content/themes/wp-mediamag-basic/header.php"
+			],
+			[
+				"preconcontrol",
+				"application/modules/default/controllers/PreconProjectController.php"
+			],
+			[
+				"preconhead",
+				"application/modules/default/views/scripts/precon-project/header.phtml"
+			],
+			[
+				"mortg",
+				"application/modules/default/controllers/MortgageCalculatorController.php"
+			],
+			[
+				"projecon",
+				"application/modules/admin/controllers/ProjectsController.php"
+			],
+			[
+				"vowcon",
+				"application/modules/vow/controllers/IndexController.php"
+			],
+			[
+				"presalecon",
+				"application/modules/service/controllers/PresaleController.php"
+			],
+			[
+				"prescon",
+				"application/modules/service/controllers/PresaleController.php"
+			],
+			[
+				"precheader",
+				"application/modules/default/views/scripts/precon-project/header.phtml"
+			],
+			[
+				"preconc",
+				"application/modules/default/controllers/PreconProjectController.php"
+			],
+			[
+				"master",
+				"public/blog/wp-content/w3tc-config/master.php"
+			],
+			[
+				"header.phtml",
+				"application/modules/default/views/scripts/precon-project/header.phtml"
+			],
+			[
+				"preconpro",
+				"application/modules/default/controllers/PreconProjectController.php"
+			],
+			[
+				"preconpr",
+				"application/modules/default/controllers/PreconProjectController.php"
+			],
+			[
+				"precon-project/header.p",
+				"application/modules/default/views/scripts/precon-project/header.phtml"
+			],
+			[
+				"header",
+				"cache/partials/header.phtml"
+			],
+			[
+				"view/project",
+				"library/RT/Widgets/TabHeader/views/project.phtml"
+			],
+			[
+				"amenitiesfeatures",
+				"application/modules/default/views/scripts/precon-project/amenities-features.phtml"
+			],
+			[
+				"preconproj",
+				"application/modules/default/controllers/PreconProjectController.php"
+			],
+			[
+				"evelyn",
+				"application/modules/default/views/scripts/company-info/partners/evelyn-eshun.phtml"
+			],
+			[
+				"base_face",
+				"library/RT/Facebook/Base_Facebook.php"
+			],
+			[
+				"newsletter",
+				"application/modules/admin/views/scripts/newsletters/show-general-public.old.phtml"
+			],
+			[
+				"initia",
+				"application/Initializer.php"
+			],
+			[
+				"serviceabstrac",
+				"application/modules/service/controllers/AbstractController.php"
+			],
+			[
+				"servabstract",
+				"library/RT/Search/Adapters/ServiceAbstract.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 363.0,
+	"status_bar_visible": true
+}
